@@ -1,0 +1,124 @@
+html {
+    width: 100vw;
+}
+
+body {
+    background-color: #FFFFEB;
+    margin: 0px;
+    width: 100vw;
+}
+.locLogo {
+    margin: 0px auto;
+    margin-top: 0px;
+    width: 100vw;
+    text-align: calc(left);
+    
+    height: 110px;
+    user-select: none;
+    background-color: #FF934F;
+    box-shadow: inset 0px 0px 3px #70163C;
+}
+.logo {
+    display: inline-flex;
+    position: relative;
+    padding-left: 15px;
+    left: 10vw;
+    top: -27px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'AvaraBold';
+    font-style: normal;
+    filter: invert(100);
+    font-weight: bolder;
+    
+    
+}
+#logo {
+    top: 15px;
+    width: 80px;
+    margin-right: 12px;
+}
+.fone {
+    position: relative;
+    display: inline-flex;
+    justify-content: center;
+    left: 50vw;
+    top: -10px;
+    color: white;
+    font-family: 'AvaraBold';
+    font-style:normal;
+    font-size: 25px;
+}
+.locItens {
+    display: flex;
+    position: relative;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: calc(max-content + 50px);
+    width: 85vw;
+    margin: 0px auto;
+}
+.item {
+    background-color: #519872 ;
+    height: 15vh;
+    width: calc(12vw + 350px);
+    gap: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    font-size: 30px;
+}
+.ingredients {
+    padding: 5px;
+    font-size: 20px;
+    text-align:justify;
+}
+.cardapio {
+    margin: 0px auto;
+    margin-top: 10px;
+    font-size: calc(2vw + 20px);
+    font-weight:900;
+    text-shadow: 1px 1px 1px white; 
+    color: black;
+    font-family: 'AvaraBold';
+    font-style:normal;
+}
+.pizzas {
+    font-size: calc(2vw + 15px);
+    width: 80vw;
+    margin-bottom: 10px;
+    color: #70163C;
+    text-shadow: 1px 1px 0px white; 
+    font-weight: 900;
+    
+}
+.tamanhos {
+    font-size: calc(1vw + 10px);
+    width: 80vw;
+    margin-bottom: 10px;
+    margin-top: -10px;
+    color: #70163C;
+    text-shadow: 1px 1px 0px white; 
+    font-weight: 900;
+}
+.ref {
+    margin: 0px auto;
+    margin-top: 20px;
+    width: 100%;
+    text-align: center;
+    
+    height: 70px;
+    user-select: none;
+    background-color: #FF934F;
+    box-shadow: inset 0px 0px 3px #70163C;
+    padding-top: 15px;
+
+    text-shadow: 1px 1px 1px black; 
+    color: white;
+    font-family: 'AvaraBold';
+    font-style:normal;
+}
